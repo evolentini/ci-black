@@ -286,7 +286,13 @@ if __name__ == "__main__":
         h_fir = None
 
     sumulation(
-        Fs=argumentos.FS, N=argumentos.N, repeticiones=argumentos.repeticiones,
-        error=argumentos.error, Mu_inicial=argumentos.Mu_inicial, Mu_final=argumentos.Mu_final,
-        Mu_paso=argumentos.Mu_paso, N_LMS=argumentos.N_LMS, h_fir=h_fir
+        Fs=argumentos.FS,
+        N=argumentos.N,
+        repeticiones=argumentos.repeticiones,
+        error=argumentos.error,
+        Mu_inicial=argumentos.Mu_inicial,
+        Mu_final=argumentos.Mu_final,
+        Mu_paso=argumentos.Mu_paso,
+        N_LMS=argumentos.N_LMS,
+        h_fir=h_fir,
     )
